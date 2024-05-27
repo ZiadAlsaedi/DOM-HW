@@ -7,67 +7,80 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container"  onmouseover="mOver()" >
+    <div class="container"   >
 <div class="left">
-        <div class="image">
-            <img  id="image" src="https://sb.kaleidousercontent.com/67418/574x435/74d8ee5821/screenshot_2022-04-25_at_16-00-23-removebg-preview.png" alt="" srcset="">  
+        <div class="image" >
+            <img  id="image" onmouseover="photo()" src="https://sb.kaleidousercontent.com/67418/574x435/74d8ee5821/screenshot_2022-04-25_at_16-00-23-removebg-preview.png" alt="" srcset="">  
         </div>
         <h1> CONTACT</h1>
         <hr>
-<p id="phone">Phone Number: +123-456-7890</p>
-        <p id="email"> Email: hello@reallygreateatsite.com</p>
-        <p id="street">Address: 123 Anywhaere</p>
-        <p id="linkedin">Account: www.reallgreatsite.com</p>
-<h1>EDUCATION</h1>    
-<hr>
-<p id="eYear">2025 - 2029</p>
-<h4 id="UNVERSITY">WARDIER UNVERSITY</h4>
-<ul>
-    <li id="major">Bachlor of Busniess</li>
-</ul>
+<p id="phone" onmouseover="phone()" >Phone Number: +123-456-7890</p>
+        <p id="email" onmouseover="email()" > Email: hello@reallygreateatsite.com</p>
+        <p id="street" onmouseover="Address()" >Address: 123 Anywhaere</p>
+        <p id="linkedin" onmouseover="account()" >Account: www.reallgreatsite.com</p>
+        <div onmouseover="EDUCATION()">
+            <h1>EDUCATION</h1>    
+            <hr>
+            <p id="eYear">2025 - 2029</p>
+            <h4 id="UNVERSITY">WARDIER UNVERSITY</h4>
+            <ul>
+                <li id="major">Bachlor of Busniess</li>
+            </ul>
+        </div>
+
 <h1>SKILLS</h1>
 <hr>
-<h3>Soft Skills</h3>
-<ul>
-    <li id="point7">Project Mangement</li>
-    <li id="point8">Publick Relation</li>
-    <li id="point9"> Teamwork</li>
-    <li id="point10">Time Mangement</li>
-    <li id="point11">Leadership</li>
-    <li id="point12">Effective Communication</li>
-    <li id="point13">Critical Thinking</li>
-</ul>
-<h3>Technical Skills </h3>
-<ul>
-    <li id="point14">Strategic Planning</li>
-    <li id="point15">Risk Management</li>
-    <li id="point16"> Change Management</li>
-    <li id="point17">Financial Analysis</li>
-    <li id="point18">Supply Chain Management</li>
-    <li id="point19">Customer Relationship Management</li>
-    <li id="point20">Data Analytics</li>
-</ul>
-<h1>LANGUAGES</h1>
-<hr>
-<ul>
-    <li id="Lang1">English(Fluent)</li>
-    <li id="Lang2">French(Fluent)</li>
-</ul>
+<div  onmouseover="SoftSkills()">
+    <h3>Soft Skills</h3>
+    <ul>
+        <li id="point7">Project Mangement</li>
+        <li id="point8">Publick Relation</li>
+        <li id="point9"> Teamwork</li>
+        <li id="point10">Time Mangement</li>
+        <li id="point11">Leadership</li>
+        <li id="point12">Effective Communication</li>
+        <li id="point13">Critical Thinking</li>
+    </ul>
+</div>
+<div onmouseover="TechnicalSkills()">
+    <h3>Technical Skills </h3>
+    <ul>
+        <li id="point14">Strategic Planning</li>
+        <li id="point15">Risk Management</li>
+        <li id="point16"> Change Management</li>
+        <li id="point17">Financial Analysis</li>
+        <li id="point18">Supply Chain Management</li>
+        <li id="point19">Customer Relationship Management</li>
+        <li id="point20">Data Analytics</li>
+    </ul>
+</div>
+<div onmouseover="LANGUAGES()">
+    <h1>LANGUAGES</h1>
+    <hr>
+    <ul>
+        <li id="Lang1">English(Fluent)</li>
+        <li id="Lang2">French(Fluent)</li>
+    </ul>
+</div>
+
 </div>
 <div class="right" >
     <br><br><br>
-     <h1 id="name">RICHARD SANCHEZ</h1>
+    <div onmouseover="mOvername()">
+      <h1 id="name">RICHARD SANCHEZ</h1>
     <h4 id="role">MARKTING MANGER</h4>
+    </div>
+   
     <br>
     <br>
 
     <h2>PROFILE</h2>
     <hr>
-    <p id="aboutMe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eveniet, ex repudiandae eaque placeat corrupti laborum dignissimos architecto cum voluptatum asperiores sint! Id laudantium consequuntur quis quaerat cupiditate excepturi amet?</p>
+    <p id="aboutMe" onmouseover="mOverProfile()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eveniet, ex repudiandae eaque placeat corrupti laborum dignissimos architecto cum voluptatum asperiores sint! Id laudantium consequuntur quis quaerat cupiditate excepturi amet?</p>
     <br>
     <h2 id="titleTraning">WORK EXPERINES</h2>
     <hr>
-    <div class="box">
+    <div class="box" onmouseover="EXPERINES1()">
         <div class="company">
             <h3 id="company-name">borcelle stdio</h3>
 <h5 id="time">2030 - PRESENT</h5>
@@ -82,7 +95,7 @@
             <li  id="point3">Monitor brand consistency across marketing channels and materials</li>
         </ul>
     </div>
-    <div class="box">
+    <div class="box" onmouseover="EXPERINES2()">
         <div class="company">
             <h3 id="company-name2">Fauget Studio</h3>
 <h5 id="time2">2025 - 2029</h5>
@@ -99,7 +112,7 @@
     </div>
     <br>
     <h2>CERTIFICATIONS</h2><hr>
-    <div class="box2">
+    <div class="box2" onmouseover="CERTIFICATIONS()">
         <ul >
             <li id="cer1">Certified Management Accountant (CMA), Institute of Management Accountants (IMA), Online,
                 Jan. 2022 - Apr.2023.
@@ -114,13 +127,13 @@
     <br>
     <h2>REFRENCE</h2><hr>
     <div class="foot">
-<div >
+<div onmouseover="REFRENCE()" >
 <h4 id="Rname">Estlle Darcy</h4>
 <p id="Rjob">Wardiere Darcy</p>
 <p id="Rphone">phone: 123-456-789</p>
 <p id="Remail">email: hello@reallygreateatsite.com</p>
 </div>
-<div >
+<div onmouseover="REFRENCE2()"  >
     <h4 id="Rname2" >Harper Richard</h4>
     <p id="Rjob2">Wardiere Darcy</p>
     <p id="Rphone2">phone: 123-456-789</p>
